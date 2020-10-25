@@ -2,7 +2,7 @@ FirstName: Alberto
 LastName: Casagrande
 MatriculationNumber: 201561
 AcademicYear: 2020-2021
-GitHubUrl: YourGithubRepositoryUR
+GitHubUrl: https://github.com/albertocasagrande99/dncs-lab.git
 Subnets:
   HostsA:
     RequiredAddresses: 136
