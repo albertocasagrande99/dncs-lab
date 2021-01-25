@@ -168,7 +168,7 @@ Since there is a switch connecting two subnets, we decided to separate them via 
 #### Implementation
 Whenever you start the network using the vagrant up command, the various devices auto-configure themselves by running the various shell scripts. We have created a script for each network device containing the commands to configure it.
 To run the scripts automatically, you need to modify the vagrant file by replacing _common.sh_ in the ```device.vm.provision "shell" line, path: "common.sh"``` with the path to the corresponding script.
-We also needed to increase the memory of host-c from 256 to 512 (MB), otherwise it would have been impossible to pull and run the Docker image; in order to do that we modified the option vb.memory.
+We also needed to increase the memory of host-c from 256 to 512 (MB), otherwise it would have been impossible to pull and run the Docker image; in order to do that we modified the option ```vb.memory```.
 
 ##### Main commands used
 - To enable the IP forwarding of the routers we used the ```sudo sysctl -w net.ipv4.ip_forward=1```
