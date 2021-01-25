@@ -10,9 +10,9 @@ Subnets:
     SubnetPrefixLength: 24
   HostsB:
     RequiredAddresses: 200
-    SubnetAddress: YourHostsBSubnetAddress
-    SubnetPrefixLength: YourHostsBSubnetPrefixLength
+    SubnetAddress: 192.168.1.0
+    SubnetPrefixLength: 24
   Hub:
     RequiredAddresses: 35
-    SubnetAddress: YourHubSubnetAddress
-    SubnetPrefixLength: YourHubSubnetPrefixLength
+    SubnetAddress: 192.168.2.0
+    SubnetPrefixLength: 26
