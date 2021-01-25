@@ -6,7 +6,7 @@ GitHubUrl: https://github.com/albertocasagrande99/dncs-lab.git
 Subnets:
   HostsA:
     RequiredAddresses: 136
-    SubnetAddress: YourHostsASubnetAddress
+    SubnetAddress: 192.168.0.0
     SubnetPrefixLength: YourHostsASubnetPrefixLength
   HostsB:
     RequiredAddresses: 200
