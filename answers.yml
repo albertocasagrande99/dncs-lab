@@ -7,7 +7,7 @@ Subnets:
   HostsA:
     RequiredAddresses: 136
     SubnetAddress: 192.168.0.0
-    SubnetPrefixLength: YourHostsASubnetPrefixLength
+    SubnetPrefixLength: 24
   HostsB:
     RequiredAddresses: 200
     SubnetAddress: YourHostsBSubnetAddress
